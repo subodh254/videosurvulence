@@ -1,0 +1,55 @@
+body{
+    background-size: cover;
+}
+.heading{
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+#start , #number_of_objects, #status
+{
+font-size: 18px;
+
+
+}
+@keyframes example{
+    from{box-shadow: 5px 5px 5px black;}
+    to{box-shadow: 5px 5px 5px red;}
+}
+
+.coppy_right_footer{
+position: fixed;
+color:grey;
+bottom: 0;
+width: 100%;
+background-color: white;
+line-height: 3;
+box-shadow: 5px 5px 5px black;
+text-align: center;
+animation-name: ritu;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+}
+
+@keyframes ritu{
+    from{box-shadow: 5px 5px 5px red;}
+    to{box-shadow: 5px 5px 5px blue;}
+}
+
+canvas
+{
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 130px;
+    box-shadow: 5px 5px 5px;
+    animation-name: toto;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes toto{
+  
+     div{box-shadow:inset 5px 5px 5px blue;}
+     
+}
